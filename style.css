@@ -35,7 +35,8 @@ header {
 .logo{height: 50px;
 float: left;
 margin-top: 0;
-padding:20px;}
+padding:20px;
+vertical-align: middle;}
 
 nav ul {
 	display: flex;
