@@ -57,7 +57,7 @@ nav li a {
 	font-family: menu;
 	border-style: none;
 	padding: 5%;
-	flex-basis: 100%;
+	width: 100%;
 }
 nav li a#active{
 	background-color: rgba(227, 200, 92, 1);
