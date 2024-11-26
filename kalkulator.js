@@ -114,7 +114,7 @@ function szamolas() {
     else if(telinyari=="nyári"){
         document.getElementById("content").innerHTML = 
         (`
-            <img src="képek/kalknyar.jpg" alt="Óceánjáró nyáron" class="telkep">
+            <img src="képek/kalknyar.png" alt="Óceánjáró nyáron" class="telkep">
             <header class="kimut_header">
             <h4>Az Ön által összeállított csomag összköltsége ${ar}Ft.</h4>
             </header>
