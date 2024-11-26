@@ -32,7 +32,7 @@ header {
 	height: 100%;
 	padding: 20px;
 }
-.logo{height: 100px;
+.logo{height: 50px;
 float: left;
 margin-top: 0;}
 
@@ -132,7 +132,7 @@ ul{list-style-type: none;}
 	width: 100%;
 }
 
-.slider {width: 100%; min-width: 400px; margin: 20px auto;}
+.slider {width: 90%; min-width: 300px; margin: 20px auto;}
 .slick-slide {margin: 0px 5px;} 
 .slick-slide img {width: 100%;}
 .slick-slide {transition: all ease-in-out .3s; opacity: .2;}
@@ -168,6 +168,7 @@ label.error {
 	.idopontok{height: fit-content; width: fit-content;}
 	.terkep{flex-basis: 68%;}
 	#kalk{width: 200px;}
+	.logo{height: 100px;}
 	
 }
 @media all and (min-width:  768px) {
