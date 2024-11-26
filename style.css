@@ -132,7 +132,7 @@ ul{list-style-type: none;}
 	width: 100%;
 }
 
-.slider {width: 94%; min-width: 300px; margin: 20px auto;}
+.slider {width: 90%; min-width: 300px; margin: 20px auto;}
 .slick-slide {margin: 0px 5px;} 
 .slick-slide img {width: 100%;}
 .slick-slide {transition: all ease-in-out .3s; opacity: .2;}
