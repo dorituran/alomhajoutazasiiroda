@@ -32,11 +32,9 @@ header {
 	height: 100%;
 	padding: 20px;
 }
-.logo{height: 50px;
+.logo{height: 80px;
 float: left;
-margin-top: 0;
-padding:20px;
-vertical-align: middle;}
+margin-top: 0;}
 
 nav ul {
 	display: flex;
