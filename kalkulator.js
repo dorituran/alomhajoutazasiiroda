@@ -15,10 +15,10 @@ let kalkulator_section = document.getElementsByClassName("kalkulator")[0];
 
 function szamolas() {
         if (document.getElementById(`tny1`).checked) {
-            ar=ar+1000000; tura=tura+1000000; telinyari=`téli`;
+            ar=ar+500000; tura=tura+500000; telinyari=`téli`;
         }
         else if (document.getElementById(`tny2`).checked) {
-            ar=ar+2000000; tura=tura+2000000; telinyari=`nyári`;
+            ar=ar+300000; tura=tura+300000; telinyari=`nyári`;
         }
         
         if (document.getElementById(`kabin1`).checked) {
