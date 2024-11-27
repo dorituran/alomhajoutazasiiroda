@@ -11,7 +11,7 @@
 	src: url(betutipusok/tartalom.ttf);}
 
 @font-face {
-	font-family: menu;
+	font-family: menuu;
 	src: url(betutipusok/menu.ttf);}
 
 html {
@@ -54,7 +54,7 @@ nav li a {
 	background-color: rgba(114, 198, 244, 0.9);
 	text-align: center;
 	text-decoration: none;
-	font-family: menu;
+	font-family: menuu;
 	border-style: none;
 	padding: 5%;
 }
@@ -80,6 +80,7 @@ footer {
 	width: 100%;
 	height: 100%;
 	padding: 15px;
+	font-family: tartalom;
 }
 div#content {
 	display: flex;
