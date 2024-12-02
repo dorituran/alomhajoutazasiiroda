@@ -42,6 +42,7 @@
 					<label>Adja meg a születési dátumát!<br><input type="date" name="szuldat" value="2000-01-01"></label><br>
 					<label>Adja meg a telefonszámát!<br><input type="text" name="tel" placeholder="+36"></label><br>
 					<label>Adja meg az email címét!<br><input type="email" name="email"></label><br>
+					<label><input type="checkbox" name="adatkezelo" checked> Elfogadom az adatkezelési feltételeket.</label><br>
 					<label><input type="checkbox" name="hirlevel" checked> Szeretnék feliratkozni a hírlevélre.</label><br>
 					Melyik hajóutunkon szeretne részt venni?<br>
 						<label><input type="radio" name="nyartel" value="tel" checked> Téli túra<br></label>
@@ -94,6 +95,7 @@ $(document).ready(function(){//http://www.sitepoint.com/basic-jquery-form-valida
 		required: true,
 		minlength: 8
 		},
+		adatkezelo: "required",
 		fo:{
 			min:1,
 			max:20
@@ -111,6 +113,7 @@ $(document).ready(function(){//http://www.sitepoint.com/basic-jquery-form-valida
 		email: {
 			required: "Kérem adjon meg egy email címet amin feljehetjük Önnel a kapcsolatot!",
 			email: " Kérem ellenőrizze jól adta-e meg az email címét!"},
+		adatkezelo: "Kérem fogadja el az adatkezelési feltételeket",
 		fo:{
 			max: "20 fő fölötti foglalás esetén vegye fel velünk a kapcsolatot telefonon, vagy keressen fel minket személyesen irodánkban."
 		}
