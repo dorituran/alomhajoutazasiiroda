@@ -140,7 +140,7 @@ ul{list-style-type: none;}
 .slick-active { opacity: .5; } .slick-current { opacity: 1; }
 
 label.error {
-	color:rgba(3, 75, 151, 0.5); font-size:medium;}
+	color:rgba(3, 75, 151, 0.5); font-size:medium; text-align: left;}
 
 #ugraslink{
 	display: flex;
