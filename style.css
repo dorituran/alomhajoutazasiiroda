@@ -50,7 +50,7 @@ nav ul {
 	margin: 2%;
 	margin-top: 0;
 	padding: 0px;
-	width: 96%;
+	flex-basis: 96%;
 }
 
 nav ul li {
