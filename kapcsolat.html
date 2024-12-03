@@ -38,8 +38,8 @@
 			<article class="urlap">
 				<form method="post" id="myform" action="https://rf.uni-corvinus.hu/webfejlesztes/receive.php" novalidate="novalidate">
 					<label>Adja meg a vezeték- és keresztnevét!<br><input type="text" name="nev"></label><br>
-					<label>Adjon meg egy jelszót amivel a foglalás során igazolhatja magát! <br><input type="password" name="jelsz"></label><br>
-					<label>Adja meg a születési dátumát!<br><input type="date" name="szuldat"></label><br>
+					<label>Adjon meg egy jelszót amivel a foglalás során igazolhatja magát! <br><input type="password" name="jelszo"></label><br>
+					<label>Adja meg a születési dátumát!<br><input type="date" name="szuldatum"></label><br>
 					<label>Adja meg a telefonszámát!<br><input type="text" name="tel" placeholder="+36"></label><br>
 					<label>Adja meg az email címét!<br><input type="email" name="email"></label><br>
 					<label><input type="checkbox" name="hirlevel" checked> Szeretnék feliratkozni a hírlevélre.</label><br>
@@ -82,7 +82,7 @@ $(document).ready(function(){//http://www.sitepoint.com/basic-jquery-form-valida
 	$("#myform").validate({
 	rules: {
 		nev: "required",
-		szuldat: "required",
+		szuldatum: "required",
 		tel: {
 			required: true,
 			minlength: 10
@@ -91,7 +91,7 @@ $(document).ready(function(){//http://www.sitepoint.com/basic-jquery-form-valida
 			required: true,
 			email: true
 		},
-		jelsz: {
+		jelszo: {
 		required: true,
 		minlength: 11
 		},
@@ -102,8 +102,8 @@ $(document).ready(function(){//http://www.sitepoint.com/basic-jquery-form-valida
 	},
 	messages: {
 		nev: "  Írja be a vezeték- és a keresztnevét!",
-		szuldat: " Adja meg a születési dátumát!",
-		jelsz: {
+		szuldatum: " Adja meg a születési dátumát!",
+		jelszo: {
 			required: "  Adja meg a jelszavát!",
 			minlength: "  A megadott jelszó legalább 8 karakter hosszú legyen!"},
 		tel: {
