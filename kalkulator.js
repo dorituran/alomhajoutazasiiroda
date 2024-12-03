@@ -66,22 +66,22 @@ function szamolas() {
         }
 
         if(document.getElementById(`kedv1`).checked && document.getElementById(`kedv2`).checked && document.getElementById(`kedv3`).checked){
-            ar=ar*0.83; megtak=ar*0.17; kedvezmeny=`Mindhárom feltüntetett kedvezmény igénybevételével összesen 17% engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`
+            ar=ar*0.83; megtak=ar*0.17; megtak=Math.round(megtak); kedvezmeny=`Mindhárom feltüntetett kedvezmény igénybevételével összesen 17% engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`
         }
         else if(document.getElementById(`kedv1`).checked && document.getElementById(`kedv2`).checked){
             ar=ar*0.93; megtak=ar*0.07; megtak=Math.round(megtak); kedvezmeny=`Családi és nyugdíjas kedvezmény együttes igénybevételével összesen 7% engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`
         }
         else if(document.getElementById(`kedv2`).checked && document.getElementById(`kedv3`).checked){
-            ar=ar*0.88; megtak=ar*0.12; kedvezmeny=`Törzsvásárlói és nyugdíjas kedvezmény együttes igénybevételével összesen 12% engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`
+            ar=ar*0.88; megtak=ar*0.12; megtak=Math.round(megtak); kedvezmeny=`Törzsvásárlói és nyugdíjas kedvezmény együttes igénybevételével összesen 12% engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`
         }
         else if(document.getElementById(`kedv1`).checked && document.getElementById(`kedv3`).checked){
-            ar=ar*0.85; megtak=ar*0.15; kedvezmeny=`Családi és törzsvásárlói kedvezmény együttes igénybevételével összesen 15% engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`
+            ar=ar*0.85; megtak=ar*0.15; megtak=Math.round(megtak); kedvezmeny=`Családi és törzsvásárlói kedvezmény együttes igénybevételével összesen 15% engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`
         }
         else if (document.getElementById(`kedv1`).checked) {
-            ar=ar*0.95; megtak=ar*0.05; kedvezmeny=`A családi kedvezmény igénybevételével 5%-os engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`;
+            ar=ar*0.95; megtak=ar*0.05; megtak=Math.round(megtak); kedvezmeny=`A családi kedvezmény igénybevételével 5%-os engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`;
         }
         else if (document.getElementById(`kedv2`).checked) {
-            ar=ar*0.98; megtak=ar*0.02; kedvezmeny=`A nyugdíjas kedvezmény igénybevételével 2%-os engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`;
+            ar=ar*0.98; megtak=ar*0.02; megtak=Math.round(megtak); kedvezmeny=`A nyugdíjas kedvezmény igénybevételével 2%-os engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`;
         }
         else if (document.getElementById(`kedv3`).checked) {
             ar=ar*0.9; megtak=ar*0.1; megtak=Math.round(megtak); kedvezmeny=`A törzsvásárlói kedvezmény igénybevételével 10%-os engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`;
