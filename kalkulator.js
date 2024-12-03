@@ -84,7 +84,7 @@ function szamolas() {
             ar=ar*0.98; megtak=ar*0.02; kedvezmeny=`A nyugdíjas kedvezmény igénybevételével 2%-os engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`;
         }
         else if (document.getElementById(`kedv3`).checked) {
-            ar=ar*0.9; megtak=Math.round(ar*0.1); kedvezmeny=`A törzsvásárlói kedvezmény igénybevételével 10%-os engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`;
+            ar=ar*0.9; megtak=ar*0.1; megtak=Math.round(megtak); kedvezmeny=`A törzsvásárlói kedvezmény igénybevételével 10%-os engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`;
         }
         else if (document.getElementById(`kedv4`).checked) {
             ar=ar*1; kedvezmeny=`Sajnos nem vagy jogosult a feltüntetett kedvezményeinkre. További promóciós lehetőségekért keress fel minket emailben, telefonon vagy akár személyesen az irodánkban.`;
