@@ -30,7 +30,7 @@ header {
 	text-align: center;
 	font-family: oldalcim;
 	margin-top: 0;
-	margin-bottom: 0%;
+	margin-bottom: 1%;
 	font-size: 60%;
 	width: 100%;
 	height: 100%;
@@ -129,7 +129,7 @@ div#eler {
 article {
 	text-align: justify;
 	border-style: none;
-	width: 100%;
+	flex-basis: 100%;
 }
 
 aside {
@@ -141,7 +141,7 @@ aside {
 }
 
 .cim {
-	width: 100%;
+	flex-basis: 100%;
 }
 
 input.mybutton {
@@ -151,7 +151,7 @@ input.mybutton {
 	border-radius: 10px;
 	border: none;
 	font-size: 1em;
-	width: 100%;
+	flex-basis: 100%;
 }
 
 .ut {
@@ -192,7 +192,7 @@ ul {
 	border-radius: 10px;
 	border: none;
 	font-size: 1em;
-	width: 100%;
+	flex-basis: 100%;
 }
 
 .slider {
@@ -241,6 +241,7 @@ label.error {
 @media all and (min-width: 600px) {
 	header {
 		font-size: 100%;
+		margin-bottom: 0%;
 	}
 
 	nav {
@@ -304,7 +305,7 @@ label.error {
 	}
 
 	.slider {
-		width: 90%;
+		flex-basis: 90%;
 	}
 }
 
@@ -349,6 +350,6 @@ label.error {
 	}
 
 	.slider {
-		width: 94%;
+		flex-basis: 94%;
 	}
 }
