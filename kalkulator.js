@@ -69,7 +69,7 @@ function szamolas() {
             ar=ar*0.83; megtak=ar*0.17; kedvezmeny=`Mindhárom feltüntetett kedvezmény igénybevételével összesen 17% engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`
         }
         else if(document.getElementById(`kedv1`).checked && document.getElementById(`kedv2`).checked){
-            ar=ar*0.93; megtak=ar*0.07; kedvezmeny=`Családi és nyugdíjas kedvezmény együttes igénybevételével összesen 7% engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`
+            ar=ar*0.93; megtak=ar*0.07; megtak=Math.round(megtak); kedvezmeny=`Családi és nyugdíjas kedvezmény együttes igénybevételével összesen 7% engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`
         }
         else if(document.getElementById(`kedv2`).checked && document.getElementById(`kedv3`).checked){
             ar=ar*0.88; megtak=ar*0.12; kedvezmeny=`Törzsvásárlói és nyugdíjas kedvezmény együttes igénybevételével összesen 12% engedményben részesül, ez ${megtak}Ft megtakarítást jelent.`
