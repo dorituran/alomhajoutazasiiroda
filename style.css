@@ -119,11 +119,11 @@ div#eler {
 }
 
 .helyszin {
-	width: 100%;
+	flex-basis: 100%;
 }
 
 .irodakep {
-	width: 100%;
+	flex-basis: 100%;
 }
 
 article {
@@ -233,7 +233,7 @@ label.error {
 #ugraslink {
 	display: flex;
 	margin-left: 60%;
-	width: 40%;
+	flex-basis: 40%;
 	color: rgba(3, 75, 151, 0.5);
 	justify-content: center;
 	text-decoration: none;

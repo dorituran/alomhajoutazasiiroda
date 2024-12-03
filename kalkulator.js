@@ -105,11 +105,15 @@ function szamolas() {
             ${kedvezmeny}</p>
             <style>
                 .kimut_header{padding: 12px 20px;
-	border-radius: 10px;
-	border: none;
-	font-size: 1em;
-	width: 100%; color: black;  background-color: rgba(227, 195, 70, 0.7);}
-    .telkep{width:98%; margin: 1%;}
+	                border-radius: 10px;
+	                border: none;
+	                font-size: 1em;
+	                flex-basis: 100%; 
+                    color: black;  
+                    background-color: 
+                    rgba(227, 195, 70, 0.7);}
+                .telkep{width:98%; 
+                    margin: 1%;}
             </style>`);}
     else if(telinyari=="nyári"){
         document.getElementById("content").innerHTML = 
@@ -126,11 +130,14 @@ function szamolas() {
             ${kedvezmeny}</p>
             <style>
                 .kimut_header{padding: 12px 20px;
-	border-radius: 10px;
-	border: none;
-	font-size: 1em;
-	width: 100%; background-color: rgba(227, 195, 70, 0.7); color: black;}
-    .telkep{width:98%; margin: 1%;}
+	                border-radius: 10px;
+	                border: none;
+	                font-size: 1em;
+	                flex-basis: 100%; 
+                    background-color: rgba(227, 195, 70, 0.7); 
+                    color: black;}
+                .telkep{width:98%; 
+                    margin: 1%;}
             </style>`);}
     }
 document.getElementById("kalk").addEventListener("click", szamolas);
