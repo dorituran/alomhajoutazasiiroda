@@ -238,21 +238,6 @@ label.error {
 	font-family: menu;
 }
 
-.kimut_header {
-	padding: 12px 20px;
-	border-radius: 10px;
-	border: none;
-	font-size: 1em;
-	width: 100%;
-	background-color: rgba(227, 195, 70, 0.7);
-	color: black;
-}
-
-.telkep {
-	width: 98%;
-	margin: 1%;
-}
-
 @media all and (min-width: 600px) {
 	header {
 		font-size: 100%;
